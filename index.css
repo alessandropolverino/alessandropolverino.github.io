@@ -10,8 +10,8 @@ body {
   font-weight: 900 !important;
   color: white;
   background-color: #4c4981;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   margin: 0 !important;
   padding: 0 !important;
 }
@@ -26,41 +26,11 @@ header {
 
 #logo {
   flex: 1;
+  justify-items: start;
 }
 
 #logo > svg {
   height: 50px;
-}
-
-nav {
-  flex: 2;
-}
-
-.nav-links {
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
-}
-
-.nav-link::after {
-  content: ""; /* This is necessary for the pseudo element to work. */
-  display: block; /* This will put the pseudo element on its own line. */
-  margin: 0 auto; /* This will center the border. */
-  width: 50%; /* Change this to whatever width you want. */
-  padding-top: 3px; /* This creates some space between the element and the border. */
-  border-bottom: 3px solid white; /* This creates the border. Replace black with whatever color you want. */
-}
-
-#coding-svg > svg {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  height: 35vh;
-  width: auto;
-}
-
-#page-title {
-  font-size: 50px;
 }
 
 footer {
@@ -79,19 +49,133 @@ footer {
   list-style: none;
 }
 
-#page-title {
-  display: flex;
-  width: 90%;
-  margin: auto;
-  min-height: 80vh;
-  align-items: center;
+@media (min-width: 1025px) {
+  .is-mobile {
+    display: none;
+  }
+
+  nav {
+    flex: 2;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+
+  .nav-link::after {
+    content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 50%; /* Change this to whatever width you want. */
+    padding-top: 3px; /* This creates some space between the element and the border. */
+    border-bottom: 3px solid white; /* This creates the border. Replace black with whatever color you want. */
+  }
+
+  #coding-svg > svg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 35vh;
+    width: auto;
+  }
+
+  #page-title {
+    font-size: 50px;
+  }
+
+  #page-title {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+  }
+
+  #title {
+    font-size: 50px;
+    margin-bottom: 0;
+  }
+
+  .changing-words {
+    font-size: 30px;
+  }
 }
 
-#title {
-  font-size: 50px;
-  margin-bottom: 0;
-}
+@media (max-width: 1024px) {
+  .is-desktop {
+    display: none;
+  }
 
-.changing-words {
-  font-size: 30px;
+  header {
+    background-color: #403e68;
+    width: 100vw;
+    box-sizing: border-box;
+  }
+
+  #logo > svg {
+    height: 40px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .changing-words {
+    text-align: center;
+  }
+
+  #mobile-links {
+    text-align: center;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+  }
+
+  .nav-link {
+    text-align: center;
+  }
+
+  .nav-link::after {
+    content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 50%; /* Change this to whatever width you want. */
+    padding-top: 3px; /* This creates some space between the element and the border. */
+    border-bottom: 3px solid white; /* This creates the border. Replace black with whatever color you want. */
+  }
+
+  #coding-svg > svg {
+    position: absolute;
+    bottom: 48px;
+    width: 100vw;
+    height: 35vh;
+    width: auto;
+  }
+
+  footer {
+    width: 100vw !important;
+    background-color: #403e68;
+    height: 48px;
+  }
+  footer > ul {
+    padding: 0;
+  }
 }
