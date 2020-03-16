@@ -187,7 +187,7 @@ footer {
     width: 100vw;
     position: relative;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   #coding-svg > svg {
@@ -197,10 +197,10 @@ footer {
   }
 
   footer {
-    position: relative;
     width: 100vw !important;
     background-color: #403e68;
     height: 48px;
+    position: relative;
   }
   footer > ul {
     padding: 0;

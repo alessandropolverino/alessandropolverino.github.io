@@ -1,5 +1,4 @@
 const { tween, physics, styler, easing, value } = window.popmotion;
-// var vertical_rotating_words = document.getElementsByClassName("v-sliding-text");
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -30,27 +29,9 @@ function verticalOut(word) {
     duration: 750
   }).start(v => word.set("y", v));
 }
-
-// function wordVerticalSlider(word) {
-//   verticalIn(word);
-//   setTimeout(function() {
-//     verticalOut(word);
-//   }, 2000);
-// }
-
-// for (var i = 0; i < vertical_rotating_words.length; i++) {
-//   var vertical_rotating_word = styler(vertical_rotating_words[i]);
-//   wordVerticalSlider(vertical_rotating_word);
-// }
-
-// console.log(vertical_rotating_words[0]);
-// var word = styler(vertical_rotating_words[0]);
-// wordVerticalSlider(word);
 var word_node = document.getElementsByClassName("v-sliding-text");
 async function wordVerticalSlider(node) {
-  console.log(node);
   for (var i = 0; i < words.length; i++) {
-    console.log(words[i]);
     node[0].innerText = words[i];
     word = styler(node[0]);
     setTimeout(function() {
