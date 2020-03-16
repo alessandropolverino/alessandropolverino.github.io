@@ -1,0 +1,10 @@
+.inline {
+  display: inline;
+}
+.v-sliding-container {
+  position: relative;
+}
+.v-sliding-text {
+  position: absolute;
+  opacity: 0;
+}

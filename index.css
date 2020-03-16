@@ -103,7 +103,7 @@ footer {
     margin-bottom: 0;
   }
 
-  .changing-words {
+  .v-sliding-text {
     font-size: 30px;
   }
 }
@@ -136,8 +136,22 @@ footer {
     text-align: center;
   }
 
-  .changing-words {
+  #word-slider {
+    height: 40px;
+  }
+
+  .v-sliding-container {
+    width: 100vw;
+  }
+
+  .v-sliding-text {
+    height: 30px;
+    width: 250px;
     text-align: center;
+    display: block;
+    margin: auto;
+    left: 0;
+    right: 0;
   }
 
   #mobile-links {

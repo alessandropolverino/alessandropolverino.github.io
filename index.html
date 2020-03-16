@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alessandro Polverino</title>
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="./text-slider.css" />
   </head>
   <body>
     <header>
@@ -73,9 +74,12 @@
       <div id="page-title">
         <div>
           <h1 id="title">Hi, I'm Alessandro Polverino</h1>
-          <div class="changing-words">
-            <span>Full stack developer</span>
-            <span>Communicator</span>
+          <div id="word-slider">
+            <div class="v-sliding-container">
+              <div>
+                <span class="v-sliding-text"></span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -971,5 +975,14 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popmotion/8.7.1/popmotion.global.min.js"></script>
     <script src="index.js" defer></script>
+    <script src="./text-slider.js"></script>
+    <script>
+      const words = [
+        "Full Stack Web Developer",
+        "Communicator",
+        "Amatorial Video Editor"
+      ];
+      wordVerticalSlider(word_node);
+    </script>
   </body>
 </html>
