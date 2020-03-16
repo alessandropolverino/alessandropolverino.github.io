@@ -198,10 +198,10 @@ footer {
 
   footer {
     width: 100vw !important;
-    background-color: #403e68;
     height: 48px;
     position: relative;
   }
+
   footer > ul {
     padding: 0;
   }
