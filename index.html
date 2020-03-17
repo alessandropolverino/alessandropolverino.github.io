@@ -76,6 +76,7 @@
             <h1
               class="title has-text-white has-text-centered"
               style="font-size: 60px; font-weight: 900;"
+              id="myname"
             >
               Hi, I'm Alessandro
             </h1>
@@ -84,94 +85,105 @@
                 <span class="v-sliding-text"></span>
               </div>
             </div>
+
+            <nav class="is-shown-mobile" style="margin-top: 10vh;">
+              <ul class="nav-links">
+                <li class="nav-link">progetti</li>
+                <li class="nav-link">esperienze</li>
+                <li class="nav-link">certificazioni</li>
+              </ul>
+            </nav>
           </div>
         </div>
       </div>
+      <div class="columns is-vcentered is-hidden-mobile" id="coding-container">
+        <div class="column coding-column">
+          <ul class="social-links">
+            <li class="social-link">
+              <a href="https://github.com/alessandropolverino" target="_blank"
+                >GitHub</a
+              >
+            </li>
+            <li class="social-link">
+              <a
+                href="https://www.facebook.com/alessandro.polverino.77"
+                target="_blank"
+                >Facebook</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div
+          class="column is-a-third has-text-centered coding-column"
+          id="coding-svg-column"
+        >
+          <img src="svgs/coding.svg" alt="coding man" style="height: 30vh;" />
+        </div>
+        <div class="column coding-column">
+          <ul class="social-links">
+            <li class="social-link">
+              <a
+                href="https://www.instagram.com/alessandro__polverino/"
+                target="_blank"
+              >
+                Instagram
+              </a>
+            </li>
+            <li class="social-link">
+              <a href="mailto:alessandropolverino01@gmail.com" target="_blank">
+                Email
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="columns is-vcentered is-hidden-tablet" id="coding-container">
+        <div
+          class="column is-a-third has-text-centered coding-column"
+          id="coding-svg-column"
+        >
+          <img src="svgs/coding.svg" alt="coding man" style="height: 30vh;" />
+        </div>
+        <div class="column coding-column">
+          <ul class="social-links">
+            <li class="social-link">
+              <a href="https://github.com/alessandropolverino" target="_blank"
+                >GitHub</a
+              >
+            </li>
+            <li class="social-link">
+              <a href="mailto:alessandropolverino01@gmail.com" target="_blank">
+                Email
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="column coding-column">
+          <ul class="social-links">
+            <li class="social-link">
+              <a
+                href="https://www.instagram.com/alessandro__polverino/"
+                target="_blank"
+              >
+                Instagram
+              </a>
+            </li>
+            <li class="social-link">
+              <a
+                href="https://www.facebook.com/alessandro.polverino.77"
+                target="_blank"
+                >Facebook</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="app">
+        <progetti></progetti>
+      </div>
     </main>
-    <div class="columns is-vcentered is-shown-desktop" id="coding-container">
-      <div class="column coding-column">
-        <ul class="social-links">
-          <li class="social-link">
-            <a href="https://github.com/alessandropolverino" target="_blank"
-              >GitHub</a
-            >
-          </li>
-          <li class="social-link">
-            <a
-              href="https://www.facebook.com/alessandro.polverino.77"
-              target="_blank"
-              >Facebook</a
-            >
-          </li>
-        </ul>
-      </div>
-      <div
-        class="column is-a-third has-text-centered coding-column"
-        id="coding-svg-column"
-      >
-        <img src="svgs/coding.svg" alt="coding man" style="height: 30vh;" />
-      </div>
-      <div class="column coding-column">
-        <ul class="social-links">
-          <li class="social-link">
-            <a
-              href="https://www.instagram.com/alessandro__polverino/"
-              target="_blank"
-            >
-              Instagram
-            </a>
-          </li>
-          <li class="social-link">
-            <a href="mailto:alessandropolverino01@gmail.com" target="_blank">
-              Email
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="columns is-vcentered is-shown-mobile" id="coding-container">
-      <div
-        class="column is-a-third has-text-centered coding-column"
-        id="coding-svg-column"
-      >
-        <img src="svgs/coding.svg" alt="coding man" style="height: 30vh;" />
-      </div>
-      <div class="column coding-column">
-        <ul class="social-links">
-          <li class="social-link">
-            <a href="https://github.com/alessandropolverino" target="_blank"
-              >GitHub</a
-            >
-          </li>
-          <li class="social-link">
-            <a
-              href="https://www.facebook.com/alessandro.polverino.77"
-              target="_blank"
-              >Facebook</a
-            >
-          </li>
-        </ul>
-      </div>
-      <div class="column coding-column">
-        <ul class="social-links">
-          <li class="social-link">
-            <a
-              href="https://www.instagram.com/alessandro__polverino/"
-              target="_blank"
-            >
-              Instagram
-            </a>
-          </li>
-          <li class="social-link">
-            <a href="mailto:alessandropolverino01@gmail.com" target="_blank">
-              Email
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popmotion/8.7.1/popmotion.global.min.js"></script>
     <script src="js/text-slider.js"></script>
     <script src="js/index.js"></script>
