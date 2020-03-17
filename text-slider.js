@@ -1,46 +1,23 @@
-const { tween, physics, styler, easing, value } = window.popmotion;
-
+const { tween, styler, keyframes } = window.popmotion;
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
-
-function verticalIn(word) {
-  tween({
-    from: 0,
-    to: 1,
-    duration: 750
-  }).start(v => word.set("opacity", v));
-  tween({
-    from: -20,
-    to: 0,
-    duration: 750
-  }).start(v => word.set("y", v));
-}
-
-function verticalOut(word) {
-  tween({
-    from: 1,
-    to: 0,
-    duration: 750
-  }).start(v => word.set("opacity", v));
-  tween({
-    from: 0,
-    to: 20,
-    duration: 750
-  }).start(v => word.set("y", v));
-}
-var word_node = document.getElementsByClassName("v-sliding-text");
-async function wordVerticalSlider(node) {
+var node = document.getElementsByClassName("v-sliding-text");
+async function wordVerticalSlider(words, anim_time) {
   for (var i = 0; i < words.length; i++) {
     node[0].innerText = words[i];
-    word = styler(node[0]);
-    setTimeout(function() {
-      verticalIn(word);
-    }, 1000);
-    setTimeout(function() {
-      verticalOut(word);
-    }, 4000);
-    await sleep(5000);
+    var word = styler(node[0]);
+    keyframes({
+      values: [
+        { y: -20, opacity: 0 },
+        { y: 0, opacity: 1 },
+        { y: 0, opacity: 1 },
+        { y: 20, opacity: 0 }
+      ],
+      times: [0, 0.25, 0.75, 1],
+      duration: anim_time
+    }).start({ update: word.set });
+    await sleep(anim_time);
   }
-  wordVerticalSlider(node);
+  wordVerticalSlider(words, anim_time);
 }
