@@ -80,6 +80,25 @@ header {
   border-bottom: 5px solid #363636; /* This creates the border. Replace black with whatever color you want. */
 }
 
+.horizontal-slider {
+  height: 340px;
+  width: 90vw;
+  margin: auto;
+  align-items: stretch;
+  position: relative;
+  color: black !important;
+}
+
+.horizontal-slider::-webkit-scrollbar {
+  display: none;
+}
+
+.preview {
+  min-width: 200px !important;
+  height: 100%;
+  margin: 0 40px;
+}
+
 @media (min-width: 1025px) {
   .is-shown-mobile {
     display: none !important;
