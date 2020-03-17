@@ -71,7 +71,7 @@ listen(slider, "mousedown touchstart").start(() => {
 
 listen(document, "mouseup touchend").start(() => {
   inertia({
-    min: -slider.scrollWidth / 2, //0,
+    min: -slider.scrollWidth + 200, //0,slider.scrollWidth
     max: -0, //getBoundariesWidth(),
     from: sliderX.get(),
     velocity: sliderX.getVelocity(),
