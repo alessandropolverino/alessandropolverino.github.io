@@ -1,0 +1,111 @@
+@font-face {
+  font-family: modeseven;
+  src: url(modeseven.ttf);
+}
+html,
+body {
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 900 !important;
+  color: white !important;
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  display: flex !important;
+  width: 100vw;
+  margin: auto;
+  align-items: center;
+  padding: 15px;
+  max-height: 78px;
+}
+
+#logo {
+  flex: 1;
+  justify-items: start;
+  height: 48px;
+}
+
+#logo > svg {
+  height: 48px;
+}
+
+.landing-80 {
+  height: 90vh;
+  background-color: #4c4981;
+  padding-top: 78px;
+}
+
+.v-sliding-text {
+  display: block;
+  left: 0;
+  right: 0;
+}
+
+.social-links {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.social-link > a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (min-width: 1025px) {
+  .is-shown-mobile {
+    display: none !important;
+  }
+
+  nav {
+    flex: 1.5;
+    color: white;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+  }
+
+  .nav-link::after {
+    content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 50%; /* Change this to whatever width you want. */
+    padding-top: 3px; /* This creates some space between the element and the border. */
+    border-bottom: 3px solid white; /* This creates the border. Replace black with whatever color you want. */
+  }
+  #coding-container {
+    height: 10vw;
+    position: relative;
+  }
+
+  #coding-svg-column > img {
+    padding: 0;
+    position: absolute;
+    width: 30vw;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: -80px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .is-shown-desktop {
+    display: none !important;
+  }
+
+  #coding-container {
+    position: relative;
+    top: -60px;
+  }
+}
