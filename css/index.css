@@ -40,6 +40,7 @@ header {
   height: 90vh;
   background-color: #4c4981;
   padding-top: 78px;
+  min-height: 450px;
 }
 
 #myname {
@@ -51,6 +52,11 @@ header {
   left: 0;
   right: 0;
   font-size: 1.1rem;
+}
+
+#coding-svg-column > img {
+  min-width: 150px;
+  min-height: 150px;
 }
 
 .social-links {
@@ -148,6 +154,10 @@ header {
 @media (max-width: 1024px) {
   .is-shown-desktop {
     display: none !important;
+  }
+
+  nav {
+    margin-top: 4rem;
   }
 
   .nav-links {
