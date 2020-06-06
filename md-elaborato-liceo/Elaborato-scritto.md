@@ -97,11 +97,11 @@ Senatore ed intellettuale che si ritrovò a ricoprire tale carica durante il per
 
 <div style="margin-top: 20px"></div>
 
-E' da sottolineare come, per lo storico, i concetti di **libertas** e di **principato**, inizialmente, fossero avvicinabili, a patto che il principe fosse illuminato. Successivamente l'idea cambiò: la libertà eventualmente garantita da un principe era infatti in realtà solo fittizia, in quanto nessuno aveva realmente potere decisionale.
+E' da sottolineare come, per lo storico, i concetti di **libertas** e di **principato**, inizialmente, fossero avvicinabili, a patto che il principe fosse illuminato. Successivamente l'idea cambiò: la libertà eventualmente garantita da un principe è in realtà solo fittizia, in quanto nessuno ha realmente potere decisionale.
 
 <div style="margin-top: 20px"></div>
 
-E' da notare anche che Tacito, sulle orme del suo maestro Quintiliano, si occupò del problema della **decadenza dell'arte oratoria**, e ne individuò le cause proprio nel sistema politico, che non necessitava più di abilità di parola in quanto il dialogo, non essendo finalizzato a nulla di concreto, non serviva a nulla. 
+E' da sottolineare come, per lo storico, i concetti di **libertas** e di **principato**, inizialmente, fossero avvicinabili, a patto che il principe fosse illuminato. Successivamente l'idea cambiò: la libertà eventualmente garantita da un principe era infatti in realtà solo fittizia, in quanto nessuno aveva realmente potere decisionale.
 
 <div style="margin-top: 20px"></div>
 
