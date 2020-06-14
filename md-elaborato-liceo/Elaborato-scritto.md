@@ -24,6 +24,26 @@ Quali sono i concetti chiave da mettere a fuoco riguardo la vita e l'impatto sul
 
 <div style="margin-top: 20px"></div>
 
+- Entra in Asia attraversando l'Ellesponto  
+
+- Battaglia del Granico (334 a.C.), vicino Troia  
+
+- Fermata a Troia ☆  
+
+- Battaglia di Isso (333 a.C.): Dario III fugge  
+
+- Fermata a Gordio ☆  
+
+- Entra in Egitto come figlio di Amon ☆  
+
+- Battaglia di Gaugamela (331 a.C.): entra in Mesopotamia e Dario fugge in battriana, ma viene ucciso dal satrapo, che viene condannato  
+
+- Arriva all'Himalaya: i soldati sono stanchi e vogliono far ritorno a casa  
+
+- Alessandro si ferma a Babilonia, dove muore  
+
+<div style="margin-top: 20px"></div>
+
 L'Impero costruito dal condottiero macedone è uno dei primi esempi di globalizzazione, importante perchè presenta molte similitudini con quella moderna, almeno negli intenti: diffondere l'utilizzo della lingua greca per facilitare le comunicazioni, uniformare usi e costumi, organizzare meglio l'economia.
 
 <div style="margin-top: 20px"></div>
