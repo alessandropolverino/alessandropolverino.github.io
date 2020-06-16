@@ -56,17 +56,17 @@ Esperienze addizionali:
 
 <div style="margin-top: 40px"></div>
 
-<div style="display: flex;">
+<div class="multiple-imgCont" style="display: flex;">
   <div style="flex: 1; display: flex; flex-direction: column; align-items: center;">
   <img src="https://i.imgur.com/f9OUjjq.jpg" alt="Logo da me creato per la pagina instagram della web radio De Sanctis" style="max-width: 200px;">
   <p style="font-size: 0.7rem;">Logo da me creato per la pagina instagram della web radio De Sanctis</p>
   </div>
 
-  <div style="margin-top: 20px"></div>
+<div style="margin-top: 20px"></div>
 
-  <div style="flex: 1; display: flex; flex-direction: column; align-items: center;">
+<div style="flex: 1; display: flex; flex-direction: column; align-items: center;">
   <img src="https://i.imgur.com/gJBFwVC.png" alt="Logo originario del gruppo Eidon" style="max-width: 200px;">
   <p style="font-size: 0.7rem;">Logo originario del gruppo Eidon</p>
 </div>
-    
+
 </div>

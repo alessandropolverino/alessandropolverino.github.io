@@ -100,7 +100,7 @@ Il 31 a.C. rappresenta una data importante per Roma, la quale vede la sua Repubb
 
 <div style="margin-top: 20px"></div>
 
-<div id="imgCont">
+<div class="imgCont">
 <img src="https://i.imgur.com/tXxASfR.jpg" alt="Mappa dei territori posseduti da Ottaviano, Marco Antonio e Lepido nell'anno 31 a.C.">
 <p>Mappa dei territori posseduti da Ottaviano, Marco Antonio e Lepido nell'anno 31 a.C.</p>
 </div>
