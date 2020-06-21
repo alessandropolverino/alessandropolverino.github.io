@@ -36,17 +36,23 @@ Esperienze:
 
 - PON giornalistico a Londra
 
+  - Visita alla BBC
+
 - FUTURA Genova
 
 - FRU
 
 - MEC Social
 
+- Visita a Radio Rai
+
+- Visita a Radio Vaticana
+
 <div style="margin-top: 20px"></div>
 
 Esperienze addizionali:
 
-- Fondato gruppo Eidon
+- Fondato gruppo <a href="https://www.youtube.com/watch?v=oe0z6yz3V70&feature=youtu.be" target="_blank">Eidon</a>
 
 - Gestito dirette settimanali (orario extrascolastico)
 
